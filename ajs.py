@@ -2152,10 +2152,10 @@ def bot(op):
                                     if msg.to in protectantijs:
                                          protectantijs.remove(msg.to)
                                          ginfo = cl.getGroup(msg.to)
-                                         msgs = "😆😆😆")
+                                         msgs = "Anti JS Dinonaktifkan\nDi Group : "
                                     else:
                                          msgs = "Anti JS Sudah Tidak Aktif"
-             #                       cl.sendMessage(msg.to, "😆😆😆")
+                                    cl.sendMessage(msg.to, "😆😆😆")
                                     
                         elif 'Ghost ' in msg.text:
                            if msg._from in admin:
